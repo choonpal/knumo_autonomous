@@ -1,3 +1,0 @@
-Invoking command in '/home/bansong/gpsnav_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_serialization -- -j16 -l16
-Invoked command in '/home/bansong/gpsnav_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_serialization -- -j16 -l16
-Invoking command in '/home/bansong/gpsnav_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_serialization

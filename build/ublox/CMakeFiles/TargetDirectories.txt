@@ -1,9 +1,0 @@
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/uninstall.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/ublox_uninstall.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/test.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/edit_cache.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/rebuild_cache.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/list_install_components.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/install.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/install/local.dir
-/home/bansong/gpsnav_ws/build/ublox/CMakeFiles/install/strip.dir

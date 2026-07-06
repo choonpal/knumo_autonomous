@@ -1,3 +1,0 @@
-[0.445s] Invoking command in '/home/bansong/gpsnav_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/sllidar_ros2 -- -j16 -l16
-[0.508s] [ 10%] Built target sllidar_client
-[0.514s] [100%] Built target sllidar_node

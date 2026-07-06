@@ -1,5 +1,0 @@
-  File "/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg/waypoint_follower_node.py", line 4
-    from geometry\_msgs.msg import Twist
-                  ^
-SyntaxError: unexpected character after line continuation character
-

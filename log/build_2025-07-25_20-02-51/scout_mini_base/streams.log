@@ -1,1 +1,0 @@
-[0.020s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_base -- -j16 -l16
