@@ -1,0 +1,4 @@
+[0.020s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.293s] [100%] Built target scout_mini_hardware
+[0.304s] Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.310s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_hardware

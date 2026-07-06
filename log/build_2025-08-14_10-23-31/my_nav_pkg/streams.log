@@ -1,0 +1,24 @@
+[0.422s] Invoking command in '/home/bansong/gpsnav_ws/build/my_nav_pkg': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bansong/gpsnav_ws/build/my_nav_pkg/build --no-deps symlink_data --force
+[0.586s] running develop
+[0.695s] running egg_info
+[0.695s] writing my_nav_pkg.egg-info/PKG-INFO
+[0.696s] writing dependency_links to my_nav_pkg.egg-info/dependency_links.txt
+[0.696s] writing entry points to my_nav_pkg.egg-info/entry_points.txt
+[0.696s] writing requirements to my_nav_pkg.egg-info/requires.txt
+[0.696s] writing top-level names to my_nav_pkg.egg-info/top_level.txt
+[0.697s] reading manifest file 'my_nav_pkg.egg-info/SOURCES.txt'
+[0.698s] writing manifest file 'my_nav_pkg.egg-info/SOURCES.txt'
+[0.699s] running build_ext
+[0.699s] Creating /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my-nav-pkg.egg-link (link to .)
+[0.699s] Installing main_controller_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.699s] Installing obstacle_avoider_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.700s] Installing test_pub_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.700s] Installing waypoint_follower_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.700s] Installing waypoint_recorder_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.700s] 
+[0.700s] Installed /home/bansong/gpsnav_ws/build/my_nav_pkg
+[0.700s] running symlink_data
+[0.700s] symbolically linking /home/bansong/gpsnav_ws/build/my_nav_pkg/resource/my_nav_pkg -> /home/bansong/gpsnav_ws/install/my_nav_pkg/share/ament_index/resource_index/packages
+[0.700s] symbolically linking /home/bansong/gpsnav_ws/build/my_nav_pkg/package.xml -> /home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg
+[0.701s] symbolically linking /home/bansong/gpsnav_ws/build/my_nav_pkg/launch/nav_system_launch.py -> /home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/launch
+[0.719s] Invoked command in '/home/bansong/gpsnav_ws/build/my_nav_pkg' returned '0': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bansong/gpsnav_ws/build/my_nav_pkg/build --no-deps symlink_data --force

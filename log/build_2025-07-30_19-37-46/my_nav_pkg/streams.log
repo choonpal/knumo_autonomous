@@ -1,0 +1,33 @@
+[0.336s] Invoking command in '/home/bansong/gpsnav_ws/src/my_nav_pkg': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav_pkg build --build-base /home/bansong/gpsnav_ws/build/my_nav_pkg/build install --record /home/bansong/gpsnav_ws/build/my_nav_pkg/install.log --single-version-externally-managed install_data
+[0.466s] running egg_info
+[0.467s] writing ../../build/my_nav_pkg/my_nav_pkg.egg-info/PKG-INFO
+[0.467s] writing dependency_links to ../../build/my_nav_pkg/my_nav_pkg.egg-info/dependency_links.txt
+[0.467s] writing entry points to ../../build/my_nav_pkg/my_nav_pkg.egg-info/entry_points.txt
+[0.467s] writing requirements to ../../build/my_nav_pkg/my_nav_pkg.egg-info/requires.txt
+[0.467s] writing top-level names to ../../build/my_nav_pkg/my_nav_pkg.egg-info/top_level.txt
+[0.468s] reading manifest file '../../build/my_nav_pkg/my_nav_pkg.egg-info/SOURCES.txt'
+[0.468s] writing manifest file '../../build/my_nav_pkg/my_nav_pkg.egg-info/SOURCES.txt'
+[0.468s] running build
+[0.468s] running build_py
+[0.468s] copying my_nav_pkg/waypoint_follower_node.py -> /home/bansong/gpsnav_ws/build/my_nav_pkg/build/lib/my_nav_pkg
+[0.469s] running install
+[0.469s] running install_lib
+[0.469s] copying /home/bansong/gpsnav_ws/build/my_nav_pkg/build/lib/my_nav_pkg/waypoint_follower_node.py -> /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg
+[0.470s] byte-compiling /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg/waypoint_follower_node.py to waypoint_follower_node.cpython-310.pyc
+[0.470s]   File "/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg/waypoint_follower_node.py", line 4
+[0.470s]     from geometry\_msgs.msg import Twist
+[0.470s]                   ^
+[0.470s] SyntaxError: unexpected character after line continuation character
+[0.470s] 
+[0.470s] running install_data
+[0.470s] running install_egg_info
+[0.471s] removing '/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[0.471s] Copying ../../build/my_nav_pkg/my_nav_pkg.egg-info to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg-0.0.1-py3.10.egg-info
+[0.472s] running install_scripts
+[0.484s] Installing main_controller_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.484s] Installing obstacle_avoider_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.485s] Installing test_pub_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.485s] Installing waypoint_follower_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.485s] Installing waypoint_recorder_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.485s] writing list of installed files to '/home/bansong/gpsnav_ws/build/my_nav_pkg/install.log'
+[0.499s] Invoked command in '/home/bansong/gpsnav_ws/src/my_nav_pkg' returned '0': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav_pkg build --build-base /home/bansong/gpsnav_ws/build/my_nav_pkg/build install --record /home/bansong/gpsnav_ws/build/my_nav_pkg/install.log --single-version-externally-managed install_data

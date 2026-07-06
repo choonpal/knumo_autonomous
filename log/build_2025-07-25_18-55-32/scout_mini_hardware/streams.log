@@ -1,0 +1,31 @@
+[0.021s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.300s] [100%] Built target scout_mini_hardware
+[0.312s] Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.312s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_hardware
+[0.325s] -- Install configuration: ""
+[0.325s] -- Execute custom install script
+[0.325s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware//scout_mini_hardware.xml
+[0.325s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/libscout_mini_hardware.so
+[0.325s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/scout_mini_hardware.hpp
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/visibility_control.h
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.sh
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.dsv
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/parent_prefix_path/scout_mini_hardware
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.sh
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.dsv
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.sh
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.dsv
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.bash
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.sh
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.zsh
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.dsv
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/packages/scout_mini_hardware
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scout_mini_hardware
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig.cmake
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig-version.cmake
+[0.326s] -- Up-to-date symlink: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.xml

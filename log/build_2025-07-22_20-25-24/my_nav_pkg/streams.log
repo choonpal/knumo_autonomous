@@ -1,0 +1,26 @@
+[0.485s] Invoking command in '/home/bansong/gpsnav_ws/src/my_nav_pkg': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav_pkg build --build-base /home/bansong/gpsnav_ws/build/my_nav_pkg/build install --record /home/bansong/gpsnav_ws/build/my_nav_pkg/install.log --single-version-externally-managed install_data
+[0.665s] running egg_info
+[0.665s] writing ../../build/my_nav_pkg/my_nav_pkg.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../../build/my_nav_pkg/my_nav_pkg.egg-info/dependency_links.txt
+[0.666s] writing entry points to ../../build/my_nav_pkg/my_nav_pkg.egg-info/entry_points.txt
+[0.666s] writing requirements to ../../build/my_nav_pkg/my_nav_pkg.egg-info/requires.txt
+[0.666s] writing top-level names to ../../build/my_nav_pkg/my_nav_pkg.egg-info/top_level.txt
+[0.667s] reading manifest file '../../build/my_nav_pkg/my_nav_pkg.egg-info/SOURCES.txt'
+[0.668s] writing manifest file '../../build/my_nav_pkg/my_nav_pkg.egg-info/SOURCES.txt'
+[0.668s] running build
+[0.668s] running build_py
+[0.668s] copying my_nav_pkg/waypoint_follower_node.py -> /home/bansong/gpsnav_ws/build/my_nav_pkg/build/lib/my_nav_pkg
+[0.669s] running install
+[0.669s] running install_lib
+[0.669s] copying /home/bansong/gpsnav_ws/build/my_nav_pkg/build/lib/my_nav_pkg/waypoint_follower_node.py -> /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg
+[0.670s] byte-compiling /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg/waypoint_follower_node.py to waypoint_follower_node.cpython-310.pyc
+[0.671s] running install_data
+[0.671s] running install_egg_info
+[0.673s] removing '/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[0.673s] Copying ../../build/my_nav_pkg/my_nav_pkg.egg-info to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg-0.0.1-py3.10.egg-info
+[0.674s] running install_scripts
+[0.690s] Installing main_controller_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.691s] Installing test_pub_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.691s] Installing waypoint_follower_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+[0.691s] writing list of installed files to '/home/bansong/gpsnav_ws/build/my_nav_pkg/install.log'
+[0.710s] Invoked command in '/home/bansong/gpsnav_ws/src/my_nav_pkg' returned '0': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav_pkg build --build-base /home/bansong/gpsnav_ws/build/my_nav_pkg/build install --record /home/bansong/gpsnav_ws/build/my_nav_pkg/install.log --single-version-externally-managed install_data

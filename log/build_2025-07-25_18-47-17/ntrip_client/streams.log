@@ -1,0 +1,44 @@
+[0.546s] Invoking command in '/home/bansong/gpsnav_ws/build/ntrip_client': PYTHONPATH=/home/bansong/gpsnav_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bansong/gpsnav_ws/build/ntrip_client/build
+[0.697s] running develop
+[0.783s] Removing /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip-client.egg-link (link to src)
+[0.783s] Note: you must uninstall or replace scripts manually!
+[0.807s] Invoked command in '/home/bansong/gpsnav_ws/build/ntrip_client' returned '0': PYTHONPATH=/home/bansong/gpsnav_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/bansong/gpsnav_ws/build/ntrip_client/build
+[0.808s] Invoking command in '/home/bansong/gpsnav_ws/src/ntrip_client': PYTHONPATH=/home/bansong/gpsnav_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/bansong/gpsnav_ws/build/ntrip_client/build install --record /home/bansong/gpsnav_ws/build/ntrip_client/install.log --single-version-externally-managed install_data --force
+[0.939s] running egg_info
+[0.939s] writing ../../build/ntrip_client/ntrip_client.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/ntrip_client/ntrip_client.egg-info/dependency_links.txt
+[0.939s] writing requirements to ../../build/ntrip_client/ntrip_client.egg-info/requires.txt
+[0.939s] writing top-level names to ../../build/ntrip_client/ntrip_client.egg-info/top_level.txt
+[0.940s] reading manifest file '../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.941s] adding license file 'LICENSE'
+[0.941s] writing manifest file '../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.941s] running build_py
+[0.941s] running build_scripts
+[0.941s] running install
+[0.941s] running install_lib
+[0.942s] creating /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] copying /home/bansong/gpsnav_ws/build/ntrip_client/build/lib/ntrip_client/ntrip_client.py -> /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] copying /home/bansong/gpsnav_ws/build/ntrip_client/build/lib/ntrip_client/ntrip_serial_device.py -> /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] copying /home/bansong/gpsnav_ws/build/ntrip_client/build/lib/ntrip_client/__init__.py -> /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] copying /home/bansong/gpsnav_ws/build/ntrip_client/build/lib/ntrip_client/ntrip_base.py -> /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] copying /home/bansong/gpsnav_ws/build/ntrip_client/build/lib/ntrip_client/rtcm_parser.py -> /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] copying /home/bansong/gpsnav_ws/build/ntrip_client/build/lib/ntrip_client/nmea_parser.py -> /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[0.942s] byte-compiling /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/ntrip_client.py to ntrip_client.cpython-310.pyc
+[0.943s] byte-compiling /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/ntrip_serial_device.py to ntrip_serial_device.cpython-310.pyc
+[0.944s] byte-compiling /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/__init__.py to __init__.cpython-310.pyc
+[0.944s] byte-compiling /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/ntrip_base.py to ntrip_base.cpython-310.pyc
+[0.944s] byte-compiling /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/rtcm_parser.py to rtcm_parser.cpython-310.pyc
+[0.945s] byte-compiling /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/nmea_parser.py to nmea_parser.cpython-310.pyc
+[0.945s] running install_data
+[0.945s] copying resource/ntrip_client -> /home/bansong/gpsnav_ws/install/ntrip_client/share/ament_index/resource_index/packages
+[0.945s] copying package.xml -> /home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client
+[0.945s] copying launch/ntrip_client_launch.py -> /home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client
+[0.945s] copying launch/ntrip_serial_device_launch.py -> /home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client
+[0.945s] running install_egg_info
+[0.946s] Copying ../../build/ntrip_client/ntrip_client.egg-info to /home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.4.0-py3.10.egg-info
+[0.947s] running install_scripts
+[0.958s] changing mode of /home/bansong/gpsnav_ws/install/ntrip_client/lib/ntrip_client/ntrip_ros_base.py to 775
+[0.958s] changing mode of /home/bansong/gpsnav_ws/install/ntrip_client/lib/ntrip_client/ntrip_ros.py to 775
+[0.958s] changing mode of /home/bansong/gpsnav_ws/install/ntrip_client/lib/ntrip_client/ntrip_serial_device_ros.py to 775
+[0.959s] writing list of installed files to '/home/bansong/gpsnav_ws/build/ntrip_client/install.log'

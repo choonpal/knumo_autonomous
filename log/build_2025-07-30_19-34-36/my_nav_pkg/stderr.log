@@ -1,0 +1,5 @@
+  File "/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my_nav_pkg/waypoint_follower_node.py", line 3
+    from nav\_msgs.msg import Odometry
+             ^
+SyntaxError: unexpected character after line continuation character
+

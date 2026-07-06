@@ -1,0 +1,7 @@
+[console_scripts]
+main_controller_node = my_nav_pkg.main_controller_node:main
+obstacle_avoider_node = my_nav_pkg.obstacle_avoider_node:main
+test_pub_node = my_nav_pkg.test_pub_node:main
+waypoint_follower_node = my_nav_pkg.waypoint_follower_node:main
+waypoint_recorder_node = my_nav_pkg.waypoint_recorder_node:main
+

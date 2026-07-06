@@ -1,0 +1,2 @@
+Invoking command in '/home/bansong/gpsnav_ws/build/ntrip_client': /usr/bin/cmake /home/bansong/gpsnav_ws/src/ntrip_client -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/bansong/gpsnav_ws/install/ntrip_client
+Invoked command in '/home/bansong/gpsnav_ws/build/ntrip_client' returned '1': /usr/bin/cmake /home/bansong/gpsnav_ws/src/ntrip_client -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/bansong/gpsnav_ws/install/ntrip_client

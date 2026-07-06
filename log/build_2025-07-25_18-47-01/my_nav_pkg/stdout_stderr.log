@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing my_nav_pkg.egg-info/PKG-INFO
+writing dependency_links to my_nav_pkg.egg-info/dependency_links.txt
+writing entry points to my_nav_pkg.egg-info/entry_points.txt
+writing requirements to my_nav_pkg.egg-info/requires.txt
+writing top-level names to my_nav_pkg.egg-info/top_level.txt
+reading manifest file 'my_nav_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_nav_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages/my-nav-pkg.egg-link (link to .)
+Installing main_controller_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+Installing test_pub_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+Installing waypoint_follower_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+Installing waypoint_recorder_node script to /home/bansong/gpsnav_ws/install/my_nav_pkg/lib/my_nav_pkg
+
+Installed /home/bansong/gpsnav_ws/build/my_nav_pkg
+running symlink_data
+symbolically linking /home/bansong/gpsnav_ws/build/my_nav_pkg/resource/my_nav_pkg -> /home/bansong/gpsnav_ws/install/my_nav_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/bansong/gpsnav_ws/build/my_nav_pkg/package.xml -> /home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg
+symbolically linking /home/bansong/gpsnav_ws/build/my_nav_pkg/launch/nav_system_launch.py -> /home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/launch

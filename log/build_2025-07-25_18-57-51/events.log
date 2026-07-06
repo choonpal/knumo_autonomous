@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (-) JobUnselected: {'identifier': 'my_nav_pkg'}
+[0.000220] (-) JobUnselected: {'identifier': 'ntrip_client'}
+[0.000240] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.000258] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.000291] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.000314] (-) JobUnselected: {'identifier': 'scout_mini_msgs'}
+[0.000358] (-) JobUnselected: {'identifier': 'scout_mini_ros2'}
+[0.000383] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000395] (-) JobUnselected: {'identifier': 'ublox'}
+[0.000404] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.000412] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.000418] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.000425] (-) EventReactorShutdown: {}

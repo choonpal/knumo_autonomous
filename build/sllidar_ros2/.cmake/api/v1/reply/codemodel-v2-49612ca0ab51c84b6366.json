@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5156ce91c99807a40cf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sllidar_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_client-10f767c1184a44b92463.json",
+					"name" : "sllidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_node-5d1d01b61e7fcb132d4a.json",
+					"name" : "sllidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_ros2_uninstall-8584a3511f71db14e901.json",
+					"name" : "sllidar_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7e519b482b086de28aaa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bansong/gpsnav_ws/build/sllidar_ros2",
+		"source" : "/home/bansong/gpsnav_ws/src/sllidar_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

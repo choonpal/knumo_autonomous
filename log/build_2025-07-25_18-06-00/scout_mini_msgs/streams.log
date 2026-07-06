@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_msgs -- -j16 -l16
+[0.160s] [  1%] Built target scout_mini_msgs__cpp
+[0.160s] [ 12%] Built target scout_mini_msgs__rosidl_generator_c
+[0.160s] [ 12%] Built target ament_cmake_python_copy_scout_mini_msgs
+[0.160s] [ 29%] Built target scout_mini_msgs__rosidl_typesupport_c
+[0.160s] [ 40%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c
+[0.160s] [ 46%] Built target scout_mini_msgs__rosidl_typesupport_cpp
+[0.160s] [ 57%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp
+[0.160s] [ 69%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c
+[0.160s] [ 80%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp
+[0.160s] [ 80%] Built target scout_mini_msgs
+[0.160s] [ 81%] Built target scout_mini_msgs__py
+[0.160s] [ 91%] Built target scout_mini_msgs__rosidl_generator_py
+[0.160s] [100%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext
+[0.160s] [100%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.160s] [100%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext
+[0.188s] running egg_info
+[0.188s] writing scout_mini_msgs.egg-info/PKG-INFO
+[0.189s] writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt
+[0.189s] writing top-level names to scout_mini_msgs.egg-info/top_level.txt
+[0.190s] reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[0.190s] writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[0.211s] [100%] Built target ament_cmake_python_build_scout_mini_msgs_egg

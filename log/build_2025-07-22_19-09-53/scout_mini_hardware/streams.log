@@ -1,0 +1,82 @@
+[0.007s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/home/bansong/gpsnav_ws/install/scout_mini_hardware
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.148s] -- Detecting C compile features
+[0.148s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.364s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.389s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.508s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.525s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.558s] -- Looking for pthread.h
+[0.617s] -- Looking for pthread.h - found
+[0.617s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.676s] -- Found Threads: TRUE  
+[0.705s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.801s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[0.810s] -- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+[0.817s] -- Found ros2_socketcan: 1.3.0 (/opt/ros/humble/share/ros2_socketcan/cmake)
+[0.839s] -- Found scout_mini_msgs: 0.1.0 (/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake)
+[0.893s] -- Configuring done
+[0.914s] -- Generating done
+[0.917s] -- Build files have been written to: /home/bansong/gpsnav_ws/build/scout_mini_hardware
+[0.926s] Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/home/bansong/gpsnav_ws/install/scout_mini_hardware
+[0.927s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.967s] [ 50%] [32mBuilding CXX object CMakeFiles/scout_mini_hardware.dir/src/scout_mini_hardware.cpp.o[0m
+[2.365s] In file included from [01m[K/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware/include/scout_mini_hardware/scout_mini_hardware.hpp:36[m[K,
+[2.365s]                  from [01m[K/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware/src/scout_mini_hardware.cpp:18[m[K:
+[2.365s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[2.365s]    22 | se update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.365s]       |                                                             [01;36m[K^[m[K
+[2.365s] 
+[7.238s] [100%] [32m[1mLinking CXX shared library libscout_mini_hardware.so[0m
+[7.640s] [100%] Built target scout_mini_hardware
+[7.651s] Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[7.658s] Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_hardware
+[7.664s] -- Install configuration: ""
+[7.664s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/scout_mini_hardware.xml
+[7.664s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/libscout_mini_hardware.so
+[7.670s] -- Set runtime path of "/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/libscout_mini_hardware.so" to ""
+[7.670s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/include/include
+[7.670s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/include/include/scout_mini_hardware
+[7.670s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/scout_mini_hardware.hpp
+[7.670s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/visibility_control.h
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.sh
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.dsv
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/parent_prefix_path/scout_mini_hardware
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.sh
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.dsv
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.sh
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.dsv
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.bash
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.sh
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.zsh
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.dsv
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv
+[7.671s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/packages/scout_mini_hardware
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scout_mini_hardware
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig.cmake
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig-version.cmake
+[7.672s] -- Installing: /home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.xml
+[7.674s] Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_hardware

@@ -1,0 +1,881 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73977575df00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73977575d0c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73977575d0c0>>)
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.135s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bansong/gpsnav_ws'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav_pkg) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_nav_pkg' with type 'ros.ament_python' and name 'my_nav_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ntrip_client' with type 'ros.ament_python' and name 'ntrip_client'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_base) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2/scout_mini_base' with type 'ros.ament_cmake' and name 'scout_mini_base'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_description) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2/scout_mini_description' with type 'ros.ament_cmake' and name 'scout_mini_description'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_hardware) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2/scout_mini_hardware' with type 'ros.ament_cmake' and name 'scout_mini_hardware'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_msgs) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2/scout_mini_msgs' with type 'ros.ament_cmake' and name 'scout_mini_msgs'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2/scout_mini_ros2) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2/scout_mini_ros2' with type 'ros.ament_cmake' and name 'scout_mini_ros2'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/bansong/gpsnav_ws/install
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 365 installed packages in /opt/ros/humble
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'my_nav_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'my_nav_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/my_nav_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/my_nav_pkg', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/my_nav_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'ntrip_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/ntrip_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/ntrip_client', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/ntrip_client', 'symlink_install': False, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/scout_mini_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/scout_mini_base', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_base', 'symlink_install': False, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/scout_mini_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/scout_mini_description', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_description', 'symlink_install': False, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/scout_mini_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/scout_mini_hardware', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/scout_mini_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/scout_mini_msgs', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/ublox_serialization', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/scout_mini_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/scout_mini_ros2', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/ublox_msgs', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.208s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/ublox_gps', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.208s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bansong/gpsnav_ws/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bansong/gpsnav_ws/install/ublox', 'merge_install': False, 'path': '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox', 'symlink_install': False, 'test_result_base': None}
+[0.208s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.209s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_serialization' with build type 'ament_cmake'
+[0.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_serialization'
+[0.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_base' with build type 'ament_cmake'
+[0.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_base'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_description' with build type 'ament_cmake'
+[0.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_description'
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_hardware'
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_msgs' with build type 'ament_cmake'
+[0.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_msgs'
+[0.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bansong/gpsnav_ws/src/my_nav_pkg' with build type 'ament_python'
+[0.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_nav_pkg', 'ament_prefix_path')
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/hook/ament_prefix_path.ps1'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/hook/ament_prefix_path.dsv'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/hook/ament_prefix_path.sh'
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.228s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bansong/gpsnav_ws/src/ntrip_client' with build type 'ament_python'
+[0.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_client', 'ament_prefix_path')
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.ps1'
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.dsv'
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.sh'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/sllidar_ros2'
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_serialization -- -j16 -l16
+[0.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_base -- -j16 -l16
+[0.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_description -- -j16 -l16
+[0.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_msgs -- -j16 -l16
+[0.384s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bansong/gpsnav_ws/src/my_nav_pkg'
+[0.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bansong/gpsnav_ws/src/ntrip_client'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_serialization -- -j16 -l16
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_serialization
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_msgs -- -j16 -l16
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_msgs
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/sllidar_ros2 -- -j16 -l16
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_hardware -- -j16 -l16
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_hardware
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_description -- -j16 -l16
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_description
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_base -- -j16 -l16
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_base
+[0.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_hardware)
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_hardware
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware' for CMake module files
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware' for CMake config files
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'cmake_prefix_path')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.sh'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib'
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'ld_library_path_lib')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.sh'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/bin'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/pkgconfig/scout_mini_hardware.pc'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/python3.10/site-packages'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/bin'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.zsh'
+[0.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/colcon-core/packages/scout_mini_hardware)
+[0.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_hardware)
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware' for CMake module files
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware' for CMake config files
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'cmake_prefix_path')
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib'
+[0.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'ld_library_path_lib')
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.sh'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/bin'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/pkgconfig/scout_mini_hardware.pc'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib/python3.10/site-packages'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_hardware/bin'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.ps1'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.sh'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.bash'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.zsh'
+[0.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_hardware/share/colcon-core/packages/scout_mini_hardware)
+[0.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization' for CMake module files
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization' for CMake config files
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_serialization
+[0.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/bin'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/lib/python3.10/site-packages'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/bin'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization' for CMake module files
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization' for CMake config files
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/bin'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/lib/python3.10/site-packages'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_serialization/bin'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_base)
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base' for CMake module files
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base' for CMake config files
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_base
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_base', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/bin'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/lib/pkgconfig/scout_mini_base.pc'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/lib/python3.10/site-packages'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/bin'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.sh'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.bash'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.zsh'
+[0.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_base/share/colcon-core/packages/scout_mini_base)
+[0.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_base)
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base' for CMake module files
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base' for CMake config files
+[0.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_base', 'cmake_prefix_path')
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.dsv'
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.sh'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/bin'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/lib/pkgconfig/scout_mini_base.pc'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/lib/python3.10/site-packages'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_base/bin'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_base/share/scout_mini_base/package.zsh'
+[0.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_base/share/colcon-core/packages/scout_mini_base)
+[0.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_msgs' with build type 'ament_cmake'
+[0.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_msgs'
+[0.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_description)
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description' for CMake module files
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_description
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_description', 'cmake_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.ps1'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/bin'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/lib/pkgconfig/scout_mini_description.pc'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/lib/python3.10/site-packages'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/bin'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.sh'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.bash'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_description/share/colcon-core/packages/scout_mini_description)
+[0.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_description)
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_description', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/lib/pkgconfig/scout_mini_description.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/lib/python3.10/site-packages'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_description/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.bash'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_description/share/scout_mini_description/package.zsh'
+[0.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_description/share/colcon-core/packages/scout_mini_description)
+[0.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_msgs)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs' for CMake module files
+[0.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_msgs
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib'
+[0.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'ld_library_path_lib')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/bin'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib/pkgconfig/scout_mini_msgs.pc'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib/python3.10/site-packages'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.bash'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.zsh'
+[0.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/colcon-core/packages/scout_mini_msgs)
+[0.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_msgs)
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs' for CMake module files
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs' for CMake config files
+[0.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'cmake_prefix_path')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'ld_library_path_lib')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.dsv'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib/pkgconfig/scout_mini_msgs.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib/python3.10/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_msgs/bin'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.bash'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.zsh'
+[0.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_msgs/share/colcon-core/packages/scout_mini_msgs)
+[0.606s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_ros2' with build type 'ament_cmake'
+[0.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/scout_mini_ros2/scout_mini_ros2'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_msgs -- -j16 -l16
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/sllidar_ros2 -- -j16 -l16
+[0.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/sllidar_ros2
+[0.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_ros2': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_ros2 -- -j16 -l16
+[0.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2' for CMake module files
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/sllidar_ros2
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/lib'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/bin'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2' for CMake module files
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2' for CMake config files
+[0.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/lib'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/bin'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/sllidar_ros2/bin'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_ros2' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/scout_mini_ros2 -- -j16 -l16
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/scout_mini_ros2': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_ros2
+[0.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_ros2)
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2' for CMake module files
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/scout_mini_ros2' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/scout_mini_ros2
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2' for CMake config files
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_ros2', 'cmake_prefix_path')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.ps1'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.sh'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/bin'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/lib/pkgconfig/scout_mini_ros2.pc'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/lib/python3.10/site-packages'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/bin'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.sh'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.bash'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.zsh'
+[0.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/colcon-core/packages/scout_mini_ros2)
+[0.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_ros2)
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2' for CMake module files
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2' for CMake config files
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_ros2', 'cmake_prefix_path')
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.sh'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/bin'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/lib/pkgconfig/scout_mini_ros2.pc'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/lib/python3.10/site-packages'
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/scout_mini_ros2/bin'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.sh'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.bash'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.zsh'
+[0.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/scout_mini_ros2/share/colcon-core/packages/scout_mini_ros2)
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/src/my_nav_pkg': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav_pkg build --build-base /home/bansong/gpsnav_ws/build/my_nav_pkg/build install --record /home/bansong/gpsnav_ws/build/my_nav_pkg/install.log --single-version-externally-managed install_data
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/src/ntrip_client': PYTHONPATH=/home/bansong/gpsnav_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/bansong/gpsnav_ws/build/ntrip_client/build install --record /home/bansong/gpsnav_ws/build/ntrip_client/install.log --single-version-externally-managed install_data
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_msgs -- -j16 -l16
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_msgs
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg' for CMake module files
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg' for CMake config files
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg/lib'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg/bin'
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/src/my_nav_pkg' returned '0': PYTHONPATH=/home/bansong/gpsnav_ws/build/my_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav_pkg build --build-base /home/bansong/gpsnav_ws/build/my_nav_pkg/build install --record /home/bansong/gpsnav_ws/build/my_nav_pkg/install.log --single-version-externally-managed install_data
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/pkgconfig/my_nav_pkg.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_nav_pkg', 'pythonpath')
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/hook/pythonpath.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/hook/pythonpath.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/hook/pythonpath.sh'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/my_nav_pkg/bin'
+[0.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_nav_pkg)
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/package.bash'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/my_nav_pkg/share/my_nav_pkg/package.zsh'
+[0.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/my_nav_pkg/share/colcon-core/packages/my_nav_pkg)
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client' for CMake module files
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/src/ntrip_client' returned '0': PYTHONPATH=/home/bansong/gpsnav_ws/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ntrip_client build --build-base /home/bansong/gpsnav_ws/build/ntrip_client/build install --record /home/bansong/gpsnav_ws/build/ntrip_client/install.log --single-version-externally-managed install_data
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client' for CMake config files
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client/lib'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client/bin'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client/lib/pkgconfig/ntrip_client.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client/lib/python3.10/site-packages'
+[0.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_client', 'pythonpath')
+[0.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/hook/pythonpath.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/hook/pythonpath.dsv'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/hook/pythonpath.sh'
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ntrip_client/bin'
+[0.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ntrip_client)
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/package.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/package.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/package.sh'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/package.bash'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ntrip_client/share/ntrip_client/package.zsh'
+[0.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ntrip_client/share/colcon-core/packages/ntrip_client)
+[0.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[0.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_msgs
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs' for CMake module files
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs' for CMake config files
+[0.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/lib'
+[0.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/bin'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/lib/python3.10/site-packages'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/bin'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[0.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs' for CMake module files
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs' for CMake config files
+[0.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/lib'
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/bin'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/lib/python3.10/site-packages'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_msgs/bin'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[0.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[0.968s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_gps' with build type 'ament_cmake'
+[0.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox_gps'
+[0.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.968s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_gps -- -j16 -l16
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox_gps -- -j16 -l16
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_gps
+[1.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps' for CMake module files
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/bansong/gpsnav_ws/install/ublox_msgs/lib:/home/bansong/gpsnav_ws/install/ublox_gps/lib:/home/bansong/gpsnav_ws/install/scout_mini_msgs/lib:/home/bansong/gpsnav_ws/install/scout_mini_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox_gps
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps' for CMake config files
+[1.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/lib'
+[1.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/bin'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/lib/python3.10/site-packages'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/bin'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.bash'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.zsh'
+[1.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[1.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps' for CMake config files
+[1.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/lib'
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/bin'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/lib/python3.10/site-packages'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox_gps/bin'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox_gps/share/ublox_gps/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[1.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox' with build type 'ament_cmake'
+[1.102s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bansong/gpsnav_ws/src/ros2-ublox-zedf9p/ublox'
+[1.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox -- -j16 -l16
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --build /home/bansong/gpsnav_ws/build/ublox -- -j16 -l16
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bansong/gpsnav_ws/build/ublox': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox' for CMake module files
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bansong/gpsnav_ws/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/bansong/gpsnav_ws/install/ublox_gps:/home/bansong/gpsnav_ws/install/ublox_msgs:/home/bansong/gpsnav_ws/install/ublox_serialization:/home/bansong/gpsnav_ws/install/ublox:/home/bansong/gpsnav_ws/install/sllidar_ros2:/home/bansong/gpsnav_ws/install/scout_mini_ros2:/home/bansong/gpsnav_ws/install/scout_mini_msgs:/home/bansong/gpsnav_ws/install/scout_mini_hardware:/home/bansong/gpsnav_ws/install/scout_mini_description:/home/bansong/gpsnav_ws/install/scout_mini_base:/home/bansong/gpsnav_ws/install:/home/bansong/gpsnav_ws/install/ntrip_client:/home/bansong/gpsnav_ws/install/my_nav_pkg:/opt/ros/humble /usr/bin/cmake --install /home/bansong/gpsnav_ws/build/ublox
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox' for CMake config files
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/bin'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/lib/pkgconfig/ublox.pc'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/lib/python3.10/site-packages'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/bin'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.sh'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.bash'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.zsh'
+[1.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox/share/colcon-core/packages/ublox)
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bansong/gpsnav_ws/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bansong/gpsnav_ws/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/bin'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/lib/pkgconfig/ublox.pc'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/lib/python3.10/site-packages'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/bansong/gpsnav_ws/install/ublox/bin'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.dsv'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.sh'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/bansong/gpsnav_ws/install/ublox/share/ublox/package.zsh'
+[1.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bansong/gpsnav_ws/install/ublox/share/colcon-core/packages/ublox)
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.160s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.167s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bansong/gpsnav_ws/install/local_setup.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bansong/gpsnav_ws/install/_local_setup_util_ps1.py'
+[1.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bansong/gpsnav_ws/install/setup.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bansong/gpsnav_ws/install/local_setup.sh'
+[1.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bansong/gpsnav_ws/install/_local_setup_util_sh.py'
+[1.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bansong/gpsnav_ws/install/setup.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bansong/gpsnav_ws/install/local_setup.bash'
+[1.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bansong/gpsnav_ws/install/setup.bash'
+[1.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bansong/gpsnav_ws/install/local_setup.zsh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bansong/gpsnav_ws/install/setup.zsh'
