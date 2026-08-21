@@ -1,0 +1,39 @@
+ublox_gps_node:
+  ros__parameters:
+    debug: 0
+    device: /dev/ttyACM0
+    frame_id: gps
+
+    uart1:
+      baudrate: 460800
+#
+    gnss:
+      glonass: true
+      beidou: true
+      gps: true
+      qzss: false
+      galileo: true
+      imes: false
+      nav_rate: 1   
+
+    # TMODE3 Config
+    tmode3: 0
+    #sv_in:
+      #reset: True
+      #min_dur: 300
+      #acc_lim: 3.0
+
+    inf:
+      all: true
+
+    publish:
+      all: false
+      nav:
+        all: true
+        relposned: true
+        posllh: true
+        posecef: true
+
+    # ✅ 추가: RTCM 수신 활성화
+    raw_data:
+      subscribe_rtcm: true
