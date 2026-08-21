@@ -1,0 +1,51 @@
+ekf_local:
+  ros__parameters:
+    frequency: 50.0
+    sensor_timeout: 0.20
+    two_d_mode: true
+    transform_time_offset: 0.0
+    transform_timeout: 0.10
+    print_diagnostics: true
+    debug: false
+    publish_tf: false
+    publish_acceleration: false
+    predict_to_current_time: false
+    reset_on_time_jump: true
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    # Measured Scout longitudinal velocity plus the nonholonomic vy=0
+    # constraint. Wheel yaw rate is deliberately excluded: its measured scale
+    # is surface-dependent and its current message covariance is 1000.
+    twist0: /wheel/twist
+    twist0_config: [
+      false, false, false,
+      false, false, false,
+      true,  true,  false,
+      false, false, false,
+      false, false, false
+    ]
+    twist0_queue_size: 10
+    twist0_nodelay: true
+    twist0_differential: false
+    twist0_relative: false
+
+    # MOT0110 gyro-z is already positive for a physical left turn. No heading
+    # sign correction is applied to angular velocity.
+    imu0: /imu/data
+    imu0_config: [
+      false, false, false,
+      false, false, false,
+      false, false, false,
+      false, false, true,
+      false, false, false
+    ]
+    imu0_queue_size: 30
+    imu0_nodelay: true
+    imu0_differential: false
+    imu0_relative: false
+    imu0_remove_gravitational_acceleration: false
+

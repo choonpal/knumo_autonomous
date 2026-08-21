@@ -1,0 +1,34 @@
+ublox_gps_node:
+  ros__parameters:
+    debug: 0
+    device: /dev/ublox
+    frame_id: gps
+
+    # Avoid broad port/navigation/constellation rewrites. Before using this
+    # package launch directly, provision CFG-USBINPROT-RTCM3X=true,
+    # CFG-RATE-MEAS=200 ms and CFG-RATE-NAV=1 in receiver RAM. The competition
+    # gnss_receiver_launch.py performs and verifies that minimal provisioning.
+    # CFG-MSG/CFG-INF output-rate commands remain volatile and intentional.
+    config_on_startup: false
+    rate: 5.0
+    nav_rate: 1
+
+    rtcm_input:
+      enabled: true
+      topic: /rtcm
+      queue_depth: 5
+      max_batch_bytes: 8192
+      require_header_stamp: true
+      max_age_sec: 2.0
+      max_future_sec: 0.5
+      status_timeout_sec: 3.0
+
+    # /rxmrtcm below is receiver input-status output, not the correction
+    # payload. Correction payloads enter on /rtcm above.
+    publish:
+      all: false
+      nav:
+        pvt: true
+        relposned: true
+      rxm:
+        rtcm: true

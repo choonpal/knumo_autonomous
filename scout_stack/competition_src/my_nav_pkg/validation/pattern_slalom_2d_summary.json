@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    20260821,
+    20260822,
+    20260823,
+    20260824
+  ],
+  "random_samples_per_pattern_per_seed": 30,
+  "distinct_scenario_executions": 518,
+  "geometry": {
+    "clear_gap_m": 2.5,
+    "box_depth_m": 0.5,
+    "centre_spacing_m": 3.0,
+    "box_width_m": 0.9,
+    "lane_divider_y_m": 0.625,
+    "box_to_lane_divider_gap_m": 0.0,
+    "vehicle_length_m": 1.4,
+    "vehicle_width_m": 0.65,
+    "road_left_m": 2.025,
+    "road_right_m": 0.675
+  },
+  "limits": {
+    "minimum_speed_mps": 0.5,
+    "maximum_speed_mps": 0.7,
+    "maximum_angular_speed_radps": 1.0
+  },
+  "summary": {
+    "nominal": {
+      "trials": 2,
+      "passes": 2,
+      "failures": 0,
+      "scenario_pass_rate": 1.0,
+      "failure_counts": {},
+      "inflated_sat_margin_min_m": 0.1924976922572038,
+      "inflated_sat_margin_p05_m": 0.19253603221330023,
+      "corridor_margin_min_m": 0.16285115035933395,
+      "corridor_margin_p05_m": 0.16297230360605633,
+      "average_command_speed_mean_mps": 0.6931391796749933,
+      "average_command_speed_p05_mps": 0.6918821175942219
+    },
+    "exact_uncertainty": {
+      "trials": 240,
+      "passes": 240,
+      "failures": 0,
+      "scenario_pass_rate": 1.0,
+      "failure_counts": {},
+      "inflated_sat_margin_min_m": 0.14275140831530986,
+      "inflated_sat_margin_p05_m": 0.1528055382799965,
+      "corridor_margin_min_m": 0.0988418759805677,
+      "corridor_margin_p05_m": 0.11106366926121722,
+      "average_command_speed_mean_mps": 0.6818317424843146,
+      "average_command_speed_p05_mps": 0.6730264150633019
+    },
+    "placement_stress": {
+      "trials": 240,
+      "passes": 240,
+      "failures": 0,
+      "scenario_pass_rate": 1.0,
+      "failure_counts": {},
+      "inflated_sat_margin_min_m": 0.08332399956297931,
+      "inflated_sat_margin_p05_m": 0.11868162421896497,
+      "corridor_margin_min_m": 0.08138015620539119,
+      "corridor_margin_p05_m": 0.09398350656065593,
+      "average_command_speed_mean_mps": 0.6770853700622769,
+      "average_command_speed_p05_mps": 0.6648939178685989
+    },
+    "boundary_stress": {
+      "trials": 36,
+      "passes": 36,
+      "failures": 0,
+      "scenario_pass_rate": 1.0,
+      "failure_counts": {},
+      "inflated_sat_margin_min_m": 0.057694448314511315,
+      "inflated_sat_margin_p05_m": 0.06104735069020928,
+      "corridor_margin_min_m": 0.05716671558985742,
+      "corridor_margin_p05_m": 0.05726435748571043,
+      "average_command_speed_mean_mps": 0.6610577572244011,
+      "average_command_speed_p05_mps": 0.647139881757534
+    }
+  }
+}

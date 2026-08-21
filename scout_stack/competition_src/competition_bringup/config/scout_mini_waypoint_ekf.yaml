@@ -1,0 +1,90 @@
+# Scout configuration for the Global EKF -> spline -> Pure Pursuit drive.
+# The follower is remapped directly to /cmd_vel by knu_waypoint_drive.launch.py.
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    scout_mini_base_controller:
+      type: diff_drive_controller/DiffDriveController
+
+
+scout_mini_base_controller:
+  ros__parameters:
+    left_wheel_names: ["front_left_wheel_joint", "rear_left_wheel_joint"]
+    right_wheel_names: ["front_right_wheel_joint", "rear_right_wheel_joint"]
+    publish_rate: 50.0
+    pose_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]
+    twist_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]
+
+    wheel_separation: 0.490
+    wheels_per_side: 1
+    wheel_radius: 0.0875
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+
+    odom_frame_id: odom
+    base_frame_id: base_link
+    open_loop: false
+    # 2026-08-09: false 로 명시한다(diff_drive_controller 기본값은 true).
+    #
+    # true면 컨트롤러가 position 인터페이스의 차분으로 오도메트리를 만든다.
+    # 그런데 이 하드웨어의 position은 실제 엔코더가 아니라 속도 적분값이다
+    # (scout_mini_hardware.cpp:394  position[i] += velocity[i]*period).
+    # 즉 적분 -> 다시 미분이라, read() 주기가 한 번 흔들리면 위치가 크게
+    # 뛰고 컨트롤러가 그것을 비현실적인 속도로 되돌려 놓는다.
+    #
+    # 2026-08-09 실측(환산 속도 최대):
+    #   /odometry/gps_enu                 3.12 m/s   정상
+    #   motor_state.velocity             19.5 rad/s  정상 (CAN 원본)
+    #   /scout_mini_base_controller/odom  330 m/s    <- 여기서 오염
+    #   /odometry/local                17,445 m/s    EKF가 증폭
+    # 그 결과 캘리브가 "position jump detected"로 334회 리셋되어
+    # 8m 직진을 끝내지 못했다.
+    #
+    # false면 속도 인터페이스(hw_velocities_)를 직접 쓴다. 그 값은 CAN에서
+    # 그대로 온 값이라 적분/미분 왕복이 없다.
+    position_feedback: false
+    # The local EKF owns odom -> base_link in this profile.
+    enable_odom_tf: false
+    cmd_vel_timeout: 0.25
+    use_stamped_vel: false
+    publish_limited_velocity: true
+
+    linear.x.has_velocity_limits: true
+    linear.x.has_acceleration_limits: false
+    linear.x.has_jerk_limits: false
+    # 2026-08-08: 1.50 -> 2.50.
+    # 주행 런치가 base_launch에 robot_config_dir로 이 파일을 넘겨
+    # scout_mini_base/config/scout_mini.yaml을 덮어쓴다. 즉 주행 중 실제
+    # 하드 리밋은 이 값이다(그쪽 파일은 base_launch 단독 실행에만 쓰인다).
+    # 실측: cmd_v가 2.30까지 올라가도 GPS 대지속도가 1.5에서 평평했다
+    # (2026-08-08 주행, t=4~7s). 캘리브 1.5와 주행 속도가 같아 보이던 원인.
+    linear.x.max_velocity: 2.50
+    linear.x.min_velocity: -0.10
+    linear.x.max_acceleration: 0.0
+    linear.x.min_acceleration: 0.0
+    linear.x.max_jerk: 0.0
+    linear.x.min_jerk: 0.0
+
+    angular.z.has_velocity_limits: true
+    angular.z.has_acceleration_limits: false
+    angular.z.has_jerk_limits: false
+    angular.z.max_velocity: 0.80
+    angular.z.min_velocity: -0.80
+    angular.z.max_acceleration: 0.0
+    angular.z.min_acceleration: 0.0
+    angular.z.max_jerk: 0.0
+    angular.z.min_jerk: 0.0
+
+
+twist_mux:
+  ros__parameters:
+    topics:
+      waypoint_trial:
+        topic: cmd_vel
+        timeout: 0.25
+        priority: 50

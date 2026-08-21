@@ -1,0 +1,45 @@
+# ZED-F9P runtime parameters for the gokulp01 ros2-ublox-zedf9p fork.
+#
+# Broad receiver configuration is deliberately disabled. In this fork,
+# config_on_startup=true rewrites USB/UART, navigation and constellation
+# settings, while a non-zero save mask can persist receiver state. The launch
+# provisioning instead verifies only three Gen-9 RAM keys: USB RTCM3 input,
+# a 200 ms measurement period, and one navigation solution per measurement.
+# The driver still issues volatile CFG-MSG/CFG-INF commands so the selected
+# NAV-PVT and RXM-RTCM output streams are available.
+ublox_gps_node:
+  ros__parameters:
+    debug: 0
+    device: /dev/ublox
+    frame_id: gps
+    config_on_startup: false
+    clear_bbr: false
+    save_on_shutdown: false
+    # Diagnostic expectation; hardware rate is provisioned and re-read by the
+    # RAM-only provisioning because config_on_startup is false.
+    rate: 5.0
+    nav_rate: 1
+
+    # ntrip_client publishes rtcm_msgs/msg/Message here. The u-blox driver
+    # writes those bytes through its existing serial worker, so /dev/ublox has
+    # exactly one owner.
+    rtcm_input:
+      enabled: true
+      topic: /rtcm
+      # The standard ntrip_client stamps each complete RTCM message. A bounded
+      # volatile queue drops old corrections rather than replaying them.
+      queue_depth: 5
+      max_batch_bytes: 8192
+      require_header_stamp: true
+      max_age_sec: 2.0
+      max_future_sec: 0.5
+      status_timeout_sec: 3.0
+
+    # Keep only messages consumed by navigation or RTK diagnostics.
+    publish:
+      all: false
+      nav:
+        pvt: true
+        relposned: true
+      rxm:
+        rtcm: true

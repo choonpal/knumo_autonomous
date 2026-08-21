@@ -1,0 +1,147 @@
+{
+  "baseline_zip": "scout_stack_20260817_slalom070_flush140_preview010.zip",
+  "production_loc": {
+    "files": [
+      {
+        "file": "competition_src/my_nav_pkg/my_nav_pkg/vfh_core.py",
+        "baseline_lines": 2982,
+        "slim_lines": 2188,
+        "removed_lines": 794
+      },
+      {
+        "file": "competition_src/my_nav_pkg/my_nav_pkg/local_avoider_node.py",
+        "baseline_lines": 2497,
+        "slim_lines": 1258,
+        "removed_lines": 1239
+      },
+      {
+        "file": "competition_src/my_nav_pkg/config/local_avoider.yaml",
+        "baseline_lines": 422,
+        "slim_lines": 242,
+        "removed_lines": 180
+      }
+    ],
+    "baseline_total": 5901,
+    "slim_total": 3688,
+    "removed_total": 2213,
+    "reduction_fraction": 0.37502118285036434
+  },
+  "baseline_tests": {
+    "passed": 243,
+    "subtests": 68
+  },
+  "slim_tests": {
+    "passed": 221,
+    "subtests": 59
+  },
+  "same_seed_10_sample_comparison": {
+    "nominal": {
+      "passes": {
+        "baseline": 2,
+        "slim": 2,
+        "delta": 0
+      },
+      "failures": {
+        "baseline": 0,
+        "slim": 0,
+        "delta": 0
+      },
+      "inflated_sat_margin_min_m": {
+        "baseline": 0.19253251887099798,
+        "slim": 0.1924976922572038,
+        "delta": -3.482661379416996e-05
+      },
+      "corridor_margin_min_m": {
+        "baseline": 0.16297968751876923,
+        "slim": 0.16285115035933395,
+        "delta": -0.00012853715943528243
+      },
+      "average_command_speed_mean_mps": {
+        "baseline": 0.6931277179712705,
+        "slim": 0.6931391796749933,
+        "delta": 1.1461703722792649e-05
+      }
+    },
+    "exact_uncertainty": {
+      "passes": {
+        "baseline": 20,
+        "slim": 20,
+        "delta": 0
+      },
+      "failures": {
+        "baseline": 0,
+        "slim": 0,
+        "delta": 0
+      },
+      "inflated_sat_margin_min_m": {
+        "baseline": 0.15599740378717103,
+        "slim": 0.15608399136490014,
+        "delta": 8.658757772911363e-05
+      },
+      "corridor_margin_min_m": {
+        "baseline": 0.11058621592893947,
+        "slim": 0.1107474986574346,
+        "delta": 0.00016128272849513792
+      },
+      "average_command_speed_mean_mps": {
+        "baseline": 0.6828886912077946,
+        "slim": 0.6829013723049345,
+        "delta": 1.2681097139921604e-05
+      }
+    },
+    "placement_stress": {
+      "passes": {
+        "baseline": 20,
+        "slim": 20,
+        "delta": 0
+      },
+      "failures": {
+        "baseline": 0,
+        "slim": 0,
+        "delta": 0
+      },
+      "inflated_sat_margin_min_m": {
+        "baseline": 0.12322488728225789,
+        "slim": 0.12327129750266197,
+        "delta": 4.6410220404080604e-05
+      },
+      "corridor_margin_min_m": {
+        "baseline": 0.06916410466079737,
+        "slim": 0.06954845297421419,
+        "delta": 0.00038434831341682685
+      },
+      "average_command_speed_mean_mps": {
+        "baseline": 0.6764381244638143,
+        "slim": 0.6764440669419364,
+        "delta": 5.942478122022976e-06
+      }
+    },
+    "boundary_stress": {
+      "passes": {
+        "baseline": 36,
+        "slim": 36,
+        "delta": 0
+      },
+      "failures": {
+        "baseline": 0,
+        "slim": 0,
+        "delta": 0
+      },
+      "inflated_sat_margin_min_m": {
+        "baseline": 0.057715704540653556,
+        "slim": 0.057694448314511315,
+        "delta": -2.1256226142241097e-05
+      },
+      "corridor_margin_min_m": {
+        "baseline": 0.05714520214880214,
+        "slim": 0.05716671558985742,
+        "delta": 2.1513441055276417e-05
+      },
+      "average_command_speed_mean_mps": {
+        "baseline": 0.6610275929482167,
+        "slim": 0.6610577572244011,
+        "delta": 3.0164276184407868e-05
+      }
+    }
+  }
+}
